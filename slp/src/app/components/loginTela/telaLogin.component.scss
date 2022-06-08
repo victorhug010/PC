@@ -1,0 +1,58 @@
+.btn-login {
+
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+    position: absolute;
+    left: 160px;
+    bottom: -230px;
+    cursor: pointer;
+}
+.rec-senha{
+    position:absolute;
+    bottom: -170px;
+    border: none;
+    cursor: pointer;
+}
+.cria-conta{
+    position: absolute;
+    bottom: -170px;
+    right: -310px;
+    border: none;
+    cursor: pointer;
+}
+
+.background{
+    background-color: rgb(175, 175, 174);
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    left: 764px;
+    bottom: 50%
+}
+
+.tela-login {
+
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -250px;
+    width: 200px;
+    height: 100px;
+    
+}
+h1{
+    position: relative;
+    text-align: center;
+    left: 150px;
+}
