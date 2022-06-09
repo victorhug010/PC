@@ -8,6 +8,8 @@ import { Component,} from '@angular/core';
 export class DashBoardComponent {
   showmenu=true
     
-  
+  doLogout() {
+    localStorage.removeItem('user');
+  }
   
 }

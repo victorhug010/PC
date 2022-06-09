@@ -6,7 +6,6 @@ export class AuthService {
     }
     
     public isAuthenticated(): boolean {
-        const token = localStorage.getItem('user');
-        return token != null; 
+        return localStorage.getItem('user') != null;
     }
 }

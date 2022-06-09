@@ -12,8 +12,9 @@ export class Guard implements CanActivate {
         
             if (this.auth.isAuthenticated()) {
             return true;
-        } else {
-            this.router.navigate(['']);
+        } 
+        else {
+            this.router.navigate(['login']);
             return false;
         }
     }

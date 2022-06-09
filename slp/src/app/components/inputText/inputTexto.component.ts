@@ -6,12 +6,18 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./inputTexto.component.scss']
 })
 export class InputTextComponent {
-    enterEvent: any;
-    pressEnter() {
-        this.enterEvent.emit();
-      }
+  value: string='';
+  @Input('password')
+  isPassword=true;
+  enterEvent: any;
+  @Output()
+  valueChanged = new EventEmitter();
 
-      @Input()
+  pressEnter() {
+    this.enterEvent.emit();
+  }
+
+  @Input()
   placeholder: String = '';
 
   @Input('type')
@@ -23,8 +29,6 @@ export class InputTextComponent {
   set textoDigitado(newValue: String) {
     this._textoDigitado = newValue;
     this.valueChanged.emit(this._textoDigitado);
-
   }
-  @Output()
-  valueChanged = new EventEmitter();
+  
 }

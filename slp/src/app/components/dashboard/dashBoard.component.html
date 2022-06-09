@@ -3,7 +3,8 @@
   <button (click)="showmenu=!showmenu">(Usuario) </button>
   <div class="submenu" [hidden]="showmenu">
     <a class="perfil" href="#">Perfil</a>
-    <a class="logout" href="#">Logout</a>
+    <a (click)="doLogout()" class="logout" href="">Logout</a>
+    
   </div>
     
   </div>
