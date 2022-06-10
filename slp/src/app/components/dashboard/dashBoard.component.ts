@@ -7,4 +7,14 @@ import { Component, } from '@angular/core';
 })
 export class DashBoardComponent {
   showmenu = true
+
+  doLogout() {
+    localStorage.removeItem('user');
+  }
+  get usuario(){
+    
+  let ret=localStorage.getItem('user');
+  let user= JSON.parse(ret as string);
+  return user.username
+  }
 }

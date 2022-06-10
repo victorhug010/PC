@@ -1,6 +1,6 @@
 <div class="dropdown">
   <div class="botao">
-    <button (click)="showmenu=!showmenu">(Usuario) </button>
+    <button (click)="showmenu=!showmenu">{{usuario}}</button>
     <div class="submenu" [hidden]="showmenu">
       <a class="perfil" href="#">Perfil</a>
       <a class="logout" href="login" >Logout</a>
