@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'slp';
+
+  //Verifica se exite um objeto chamado 'user' no localstorage
+  get showMenu() {
+    return localStorage.getItem('user') != null;
+  }
 }

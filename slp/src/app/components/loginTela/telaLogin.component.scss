@@ -1,5 +1,4 @@
 .btn-login {
-
     background-color: #1877f2;
     border: none;
     border-radius: 6px;
@@ -7,52 +6,45 @@
     padding: 0 16px;
     color: #ffffff;
     font-weight: 700;
-    width: 100%;
-    margin: 5px 0;
+    width: 80%;
+    margin: 15px auto 15px auto;
     height: 45px;
     vertical-align: middle;
     font-size: 16px;
-    position: absolute;
-    left: 160px;
-    bottom: -230px;
     cursor: pointer;
 }
-.rec-senha{
-    position:absolute;
-    bottom: -170px;
+
+.rec-senha {
     border: none;
     cursor: pointer;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
-.cria-conta{
-    position: absolute;
-    bottom: -170px;
-    right: -310px;
+
+.cria-conta {
     border: none;
     cursor: pointer;
 }
 
-.background{
+.background {
     background-color: rgb(175, 175, 174);
     width: 550px;
-    height: 300px;
     position: absolute;
-    left: 764px;
-    bottom: 50%
 }
 
-.tela-login {
-
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    margin-top: -40px;
-    margin-left: -250px;
-    width: 200px;
-    height: 100px;
-    
-}
-h1{
+h1 {
     position: relative;
     text-align: center;
-    left: 150px;
+}
+
+.container {
+    width: 98vw; //view width
+    height: 96vh; //view height
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela-login{
+    text-align: center;
 }
