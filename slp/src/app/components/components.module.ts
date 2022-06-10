@@ -19,10 +19,6 @@ import { MenuBarComponent } from "./menu/menuBar.component";
     InputTextComponent,
     MenuBarComponent,
     DashBoardComponent
-
-    
-    
-
   ],
   exports: [
     TelaLoginComponent,
@@ -30,8 +26,6 @@ import { MenuBarComponent } from "./menu/menuBar.component";
     MenuBarComponent,
     InputTextComponent,
     DashBoardComponent
-    
-   
   ],
   imports: [
     BrowserModule,
@@ -39,8 +33,6 @@ import { MenuBarComponent } from "./menu/menuBar.component";
     BrowserAnimationsModule,
     FormsModule,
     CommonModule,
-
-
   ],
 
 })

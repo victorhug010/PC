@@ -4,55 +4,43 @@
   height: 40px;
   position: absolute;
   top: 0;
-
 }
-  .botao {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    left: -15px;
-    
-  
-    
-  }
-
-  button {
-    background-color: #212121;
-    position: absolute;
-    right: 0;
-    color: white;
-    border: none;
-    font-size: 19px;
-    top: 7px;
-    cursor: pointer;
-    
-
-
-  }
-
-  
-  a{
-    position: relative;
-    font-size: 15px;
-    color: blue
-  }
-  .submenu{
-    position: absolute;
-    top: 40px;
-    right: 0;
-    background-color: #212121;
-    
-  }
-  .perfil{
-    color: white;
-    font-size:20px;
-    display: flex;
-    padding-left: 28px;
-    right: 28px;
-  }
-  .logout{
-    color: white;
-    display: flex;
-    font-size:20px;
-   
-  }
+.botao {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  left: -15px;
+}
+button {
+  background-color: #212121;
+  position: absolute;
+  right: 0;
+  color: white;
+  border: none;
+  font-size: 19px;
+  top: 7px;
+  cursor: pointer;
+}
+a {
+  position: relative;
+  font-size: 15px;
+  color: blue
+}
+.submenu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #212121;
+}
+.perfil {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  padding-left: 28px;
+  right: 28px;
+}
+.logout {
+  color: white;
+  display: flex;
+  font-size: 20px;
+}

@@ -1,4 +1,4 @@
-import { Component,} from '@angular/core';
+import { Component, } from '@angular/core';
 
 @Component({
   selector: 'dashboard',
@@ -6,8 +6,5 @@ import { Component,} from '@angular/core';
   styleUrls: ['./dashBoard.component.scss']
 })
 export class DashBoardComponent {
-  showmenu=true
-    
-  
-  
+  showmenu = true
 }
