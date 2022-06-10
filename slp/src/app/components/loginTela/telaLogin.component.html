@@ -1,11 +1,16 @@
 <div class="background">
 <div class="tela-login">
 <h1>Tela Login</h1>
-<inputText [placeholder]="'Usuario'"></inputText>
-<inputText [placeholder]="'Senha'"></inputText>
-<button class="btn-login">Login</button>
+<inputText [ngClass]="usernameError ? 'error':''" (valueChanged)="setUsername($event)" [placeholder]="'Usuario'"></inputText>
+<inputText [ngClass]="passwordError ? 'error':''" (enterEvent)="doLogin()" (valueChanged)="setPassword($event)"  [placeholder]="'Senha'"  [type]="'password'"></inputText>
+<a href="">
+<button (click)="doLogin()" class="btn-login" >Login</button></a>
 <button class="rec-senha">Recuperar Senha</button>
 <button class="cria-conta">Criar Conta</button>
+
+
+
+
 </div>
 </div>
 
